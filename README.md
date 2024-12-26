@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java when iterating through arrays. The error occurs when the loop condition `i <= arr.length` is used, causing an attempt to access an index beyond the valid range of the array. The solution shows how to correct this by using `i < arr.length` instead.
